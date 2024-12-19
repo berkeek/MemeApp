@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MemeApp</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_leaderboard">Leaderboard</string>
+    <string name="upload_button">Upload Meme</string>
+    <string name="send_vote">Send Vote</string>
+    <string name="vote_text">Funny or Cringe?</string>
+    <string name="meme_desc">Meme Image</string>
+</resources>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/leaderboardScrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:id="@+id/leaderboardContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Leaderboard Title -->
+        <TextView
+            android:id="@+id/leaderboardTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Leaderboard"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:paddingBottom="16dp"/>
+
+        <!-- First Place -->
+        <LinearLayout
+            android:id="@+id/firstPlaceLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="8dp"
+            android:gravity="center_vertical"
+            android:background="@drawable/rounded_corner"
+            android:layout_marginBottom="8dp">
+
+            <TextView
+                android:id="@+id/firstPlaceRank"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1."
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#FFD700"
+                android:layout_marginEnd="12dp"/>
+
+            <ImageView
+                android:id="@+id/firstPlaceImage"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/rounded_corner"
+                android:scaleType="fitCenter"
+                android:layout_marginEnd="12dp"
+                android:contentDescription="First Place Meme Image"/>
+
+            <TextView
+                android:id="@+id/firstPlaceVotes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Votes: 0"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#000000"/>
+        </LinearLayout>
+
+        <!-- Second Place -->
+        <LinearLayout
+            android:id="@+id/secondPlaceLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="8dp"
+            android:gravity="center_vertical"
+            android:background="@drawable/rounded_corner"
+            android:layout_marginBottom="8dp">
+
+            <TextView
+                android:id="@+id/secondPlaceRank"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2."
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#C0C0C0"
+                android:layout_marginEnd="12dp"/>
+
+            <ImageView
+                android:id="@+id/secondPlaceImage"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/rounded_corner"
+                android:scaleType="fitCenter"
+                android:layout_marginEnd="12dp"
+                android:contentDescription="Second Place Meme Image"/>
+
+            <TextView
+                android:id="@+id/secondPlaceVotes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Votes: 0"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#000000"/>
+        </LinearLayout>
+
+        <!-- Third Place -->
+        <LinearLayout
+            android:id="@+id/thirdPlaceLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="8dp"
+            android:gravity="center_vertical"
+            android:background="@drawable/rounded_corner"
+            android:layout_marginBottom="8dp">
+
+            <TextView
+                android:id="@+id/thirdPlaceRank"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3."
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#CD7F32"
+                android:layout_marginEnd="12dp"/>
+
+            <ImageView
+                android:id="@+id/thirdPlaceImage"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/rounded_corner"
+                android:scaleType="fitCenter"
+                android:layout_marginEnd="12dp"
+                android:contentDescription="Third Place Meme Image"/>
+
+            <TextView
+                android:id="@+id/thirdPlaceVotes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Votes: 0"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#000000"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
